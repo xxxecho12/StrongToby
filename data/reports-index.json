@@ -9,12 +9,6 @@
       "subcategory": "ct",
       "fileType": "pdf",
       "filePath": "assets/reports/ct-imaging-20260212-cau.pdf",
-      "summary": "腹腔网膜区见较大软组织密度团块影，边界尚清，增强后不均匀强化。未见明显远处转移灶。",
-      "highlights": [
-        "肿块位于腹腔网膜，非脾脏来源",
-        "未见明显远处转移",
-        "胸腔淋巴结轻度肿大",
-        "前列腺明显增大伴囊性变"
       ]
     },
     {
@@ -26,7 +20,6 @@
       "subcategory": "ct",
       "fileType": "pdf",
       "filePath": "assets/reports/ct-report-20260212-ailu.pdf",
-      "summary": "胸腹联合CT增强扫描，发现腹腔内占位性病变。"
     },
     {
       "id": "ultrasound-20260210",
@@ -41,14 +34,14 @@
     },
     {
       "id": "pre-surgery-ultrasound-ascites-20260224",
-      "title": "术前检查 & B超 & 腹水细胞学",
-      "date": "2026-02-24",
+      "title": "术前检查血常规生化 & B超 & 腹水细胞学",
+      "date": "2026-02-14",
       "institution": "鹏峰医院",
       "category": "imaging",
       "subcategory": "ultrasound",
       "fileType": "pdf",
       "filePath": "assets/reports/pre-surgery-ultrasound-ascites-20260224.pdf",
-      "summary": "02/24复查B超及腹水细胞学检查。"
+      "summary": "02/14腹腔镜术前检查 + 穿刺抽腹水"
     },
     {
       "id": "abdominal-xray-20260210",
@@ -70,11 +63,7 @@
       "subcategory": "biopsy",
       "fileType": "pdf",
       "filePath": "assets/reports/laparoscopy-pathology-20260214.pdf",
-      "summary": "腹腔镜取样病理：确认为慢性炎症性病变，非恶性肿瘤，但低级别肉瘤不能完全排除。",
-      "highlights": [
-        "腹腔肿块：慢性炎症性病变",
-        "非恶性肿瘤（低级别肉瘤不能完全排除）",
-        "睾丸病理结果"
+      "summary": "腹腔镜取样病理：认为是慢性炎症性病变，非恶性肿瘤，但低级别肉瘤不能完全排除。"
       ]
     },
     {
@@ -86,7 +75,7 @@
       "subcategory": "cytology",
       "fileType": "pdf",
       "filePath": "assets/reports/ascites-pathology-20260212.pdf",
-      "summary": "腹水细胞学检查，未发现癌细胞。"
+      "summary": "02/12抽腹水细胞学检查，未发现癌细胞。"
     },
     {
       "id": "ascites-culture-20260214",
@@ -97,10 +86,7 @@
       "subcategory": "culture",
       "fileType": "pdf",
       "filePath": "assets/reports/ascites-culture-20260214.pdf",
-      "summary": "腹水细菌培养结果为无菌，排除细菌感染。",
-      "highlights": [
-        "培养结果：无菌",
-        "排除细菌性腹膜炎"
+      "summary": "02/14抽腹水细菌培养结果为无菌。",
       ]
     },
     {
@@ -139,7 +125,7 @@
       "subcategory": "photos",
       "fileType": "image",
       "filePath": "assets/images/ascites-sample-20260214.jpeg",
-      "summary": "02/14穿刺抽取的腹水样本照片，外观类似脓液（后证实无菌）。"
+      "summary": "02/14穿刺抽取的腹水样本照"
     },
     {
       "id": "blood-work-20260212",
@@ -150,10 +136,6 @@
       "fileType": "pdf",
       "filePath": "assets/reports/blood-work-20260212.pdf",
       "summary": "术前血常规及生化全项。RETIC（网织红细胞）增高，其他指标基本正常或上限波动。",
-      "highlights": [
-        "RETIC 网织红细胞：150 (参考 10-110) ↑",
-        "其他指标基本正常"
-      ]
     },
     {
       "id": "cbc-20260224",
@@ -163,7 +145,7 @@
       "category": "bloodwork",
       "fileType": "pdf",
       "filePath": "assets/reports/cbc-20260224.pdf",
-      "summary": "02/24复查血常规及血涂片。"
+      "summary": "血小板略低，相比02/12降低不少；网积红细胞回落到正常范围；其他指标正常。"
     },
     {
       "id": "biochemistry-20260224",
@@ -173,7 +155,7 @@
       "category": "bloodwork",
       "fileType": "pdf",
       "filePath": "assets/reports/biochemistry-20260224.pdf",
-      "summary": "02/24复查生化指标简版。"
+      "summary": "无异常"
     },
     {
       "id": "checkup-report-20250909",
@@ -183,7 +165,7 @@
       "category": "archive",
       "fileType": "pdf",
       "filePath": "assets/reports/checkup-report-20250909.pdf",
-      "summary": "2025年9月年度体检，含血常规、生化等。生化指标正常。"
+      "summary": "血常规、生化等，均正常；尿检有异常但医生认为是检查误差。"
     },
     {
       "id": "checkup-ultrasound-xray-202509",
@@ -193,7 +175,7 @@
       "category": "archive",
       "fileType": "pdf",
       "filePath": "assets/reports/checkup-ultrasound-xray-202509.pdf",
-      "summary": "2025年9月体检影像检查，B超和X光均未见明显异常。发现前列腺增生。"
+      "summary": "2025年9月体检影像检查，发现前列腺增生和囊肿、睾丸结节，腹腔胸腔B超和X光未见明显异常。"
     }
   ]
 }

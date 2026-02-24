@@ -210,7 +210,12 @@
     a.className = 'tl-report-link';
     var hash = buildReportHash(reportId);
     a.href = hash;
-    a.textContent = '查看报告 \u2192';
+
+    // Show specific report name instead of generic "查看报告"
+    var report = window.App && window.App.getReport ? window.App.getReport(reportId) : null;
+    var linkText = (report && report.title) ? report.title : '查看报告';
+    a.textContent = linkText + ' \u2192';
+
     a.addEventListener('click', function (e) {
       e.preventDefault();
       window.location.hash = buildReportHash(reportId);
@@ -251,16 +256,6 @@
       descEl.className = 'tl-desc';
       descEl.textContent = evt.description;
       node.appendChild(descEl);
-    }
-
-    // Tags
-    if (evt.tags && evt.tags.length) {
-      var tagsWrap = document.createElement('div');
-      tagsWrap.className = 'tl-tags';
-      evt.tags.forEach(function (t) {
-        tagsWrap.appendChild(createTagChip(t));
-      });
-      node.appendChild(tagsWrap);
     }
 
     // Linked reports

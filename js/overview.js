@@ -193,6 +193,22 @@
       '.ov-hero-sub {',
       '  font-size: 0.88rem;',
       '  color: #6b7280;',
+      '}',
+
+      /* 2×2 grid for info cards */
+      '.ov-grid {',
+      '  display: grid;',
+      '  grid-template-columns: repeat(2, 1fr);',
+      '  gap: 16px;',
+      '  margin-bottom: 20px;',
+      '}',
+
+      '.ov-grid > .ov-card {',
+      '  margin-bottom: 0;',
+      '}',
+
+      '@media (max-width: 768px) {',
+      '  .ov-grid { grid-template-columns: 1fr; }',
       '}'
     ].join('\n');
 
@@ -232,13 +248,9 @@
     var grid = el('div', 'ov-info-grid');
 
     var fields = [
-      { label: '姓名', value: info.name },
-      { label: '物种', value: info.species },
       { label: '品种', value: info.breed },
-      { label: '毛色', value: info.color },
-      { label: '性别', value: info.sex },
       { label: '年龄', value: calcAge(info.birthDate) },
-      { label: '出生日期', value: info.birthDate },
+      { label: '性别', value: info.sex },
       { label: '绝育状态', value: info.neutered ? '已绝育' + (info.neuteredDate ? ' (' + info.neuteredDate + ')' : '') : '未绝育' }
     ];
 
@@ -405,22 +417,21 @@
     // Hero header
     page.appendChild(buildHero(info));
 
-    // 1. Basic Info Card
-    page.appendChild(buildBasicInfoCard(info));
+    // 2×2 info grid: basic info | condition | past history | symptoms
+    var grid = el('div', 'ov-grid');
+    grid.appendChild(buildBasicInfoCard(info));
+    grid.appendChild(buildConditionCard(info));
 
-    // 2. Condition Summary Card
-    page.appendChild(buildConditionCard(info));
-
-    // 3. Timeline
-    page.appendChild(buildTimelineSection(info));
-
-    // 4. Past History Card
     var historyCard = buildPastHistoryCard(info);
-    if (historyCard) page.appendChild(historyCard);
+    if (historyCard) grid.appendChild(historyCard);
 
-    // 5. Main Symptoms
     var symptomsCard = buildSymptomsCard(info);
-    if (symptomsCard) page.appendChild(symptomsCard);
+    if (symptomsCard) grid.appendChild(symptomsCard);
+
+    page.appendChild(grid);
+
+    // Timeline at the bottom
+    page.appendChild(buildTimelineSection(info));
 
     // Render into #content
     contentEl.innerHTML = '';
