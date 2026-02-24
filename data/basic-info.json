@@ -1,0 +1,66 @@
+{
+  "name": "Toby",
+  "species": "犬",
+  "breed": "柯基 (Corgi)",
+  "color": "黄白黑",
+  "sex": "公",
+  "birthDate": "2017-06-29",
+  "neutered": true,
+  "neuteredDate": "2026-02-14",
+  "conditionSummary": "腹腔慢性炎症性肿块（病理确认非恶性肿瘤，低级别肉瘤不能完全排除）；高血压（氨氯地平控制中，收缩压仍偏高）；前列腺增生+囊肿（已绝育）。",
+  "currentStatus": "术后恢复期，精神食欲尚可，体重下降中，饮水量偏少。左侧腹部（靠近胸腔位置）轻微隆起，触碰反应明显。",
+  "pastHistory": [
+    "2025年3月/10月 双眼先后角膜溃疡",
+    "2021年4月 严重急性肠胃炎",
+    "疫苗每年按时接种；驱虫定期但近期不规律，02/14术后已补驱虫"
+  ],
+  "timeline": [
+    {
+      "date": "2025-09",
+      "title": "年度体检",
+      "description": "发现前列腺增生、囊肿，睾丸有结节，医生建议观察。全身B超和CT无异常，生化指标正常。",
+      "tags": ["体检", "B超", "X光"],
+      "linkedReports": ["checkup-report-20250909", "checkup-ultrasound-xray-202509"]
+    },
+    {
+      "date": "2026-02-初",
+      "title": "排尿习惯变化",
+      "description": "憋尿时间从12小时缩短至5-6小时，容易漏尿，遛狗频次增加至每天3-4次。食欲精神良好。",
+      "tags": ["症状"]
+    },
+    {
+      "date": "2026-02-10",
+      "title": "爱侣医院检查",
+      "description": "B超和X光检查前列腺，发现前列腺囊肿，同时发现腹腔较大肿块。",
+      "tags": ["B超", "X光"],
+      "linkedReports": ["ultrasound-20260210", "abdominal-xray-20260210"]
+    },
+    {
+      "date": "2026-02-12",
+      "title": "爱侣医院 CT + 血检 + 腹水取样",
+      "description": "CT增强发现肿块在腹腔网膜上，未见明显转移，胸腔淋巴肿大。血常规RETIC增高。抽腹水送检未发现癌细胞。",
+      "tags": ["CT", "血检", "腹水"],
+      "linkedReports": ["ct-report-20260212-ailu", "ct-imaging-20260212-cau", "blood-work-20260212", "ascites-pathology-20260212"]
+    },
+    {
+      "date": "2026-02-14",
+      "title": "鹏峰医院 腹腔镜 + 绝育手术",
+      "description": "腹腔镜取样 + 双侧去势。穿刺抽腹水发现类似脓液（后证实无菌）。术后监护发现血压高（收缩压160+）。",
+      "tags": ["手术", "腹腔镜", "病理"],
+      "linkedReports": ["laparoscopy-pathology-20260214", "ascites-culture-20260214"]
+    },
+    {
+      "date": "2026-02-16",
+      "title": "术后回家",
+      "description": "食欲和精神尚可。前几天走路略迟缓，嗜睡略有增加，不爱喝水需诱导，02/23开始略有好转。大便正常，憋尿时间更短（约3小时一次）。血压持续用药但降压效果不明显，平均在160左右。",
+      "tags": ["术后"]
+    },
+    {
+      "date": "2026-02-24",
+      "title": "鹏峰医院复查 血检+B超",
+      "description": "左侧腹部（靠近胸腔位置）轻微隆起，轻轻触碰反应明显。进行血常规、生化、B超及腹水细胞学检查。",
+      "tags": ["血检", "B超"],
+      "linkedReports": ["cbc-20260224", "biochemistry-20260224", "pre-surgery-ultrasound-ascites-20260224"]
+    }
+  ]
+}

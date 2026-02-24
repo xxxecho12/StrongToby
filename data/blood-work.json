@@ -1,0 +1,56 @@
+{
+  "categories": [
+    {
+      "name": "血常规",
+      "items": [
+        {
+          "name": "WBC 白细胞",
+          "unit": "10⁹/L",
+          "results": [
+            {
+              "date": "2026-02-12",
+              "value": 8.5,
+              "refRange": "5.5-16.9",
+              "institution": "爱侣医院",
+              "status": "normal",
+              "reportId": "blood-work-20260212"
+            }
+          ]
+        },
+        {
+          "name": "RBC 红细胞",
+          "unit": "10¹²/L",
+          "results": [
+            {
+              "date": "2026-02-12",
+              "value": null,
+              "refRange": "5.5-8.5",
+              "institution": "爱侣医院",
+              "status": "normal",
+              "reportId": "blood-work-20260212"
+            }
+          ]
+        },
+        {
+          "name": "RETIC 网织红细胞",
+          "unit": "10⁹/L",
+          "results": [
+            {
+              "date": "2026-02-12",
+              "value": 150,
+              "refRange": "10-110",
+              "institution": "爱侣医院",
+              "status": "high",
+              "reportId": "blood-work-20260212"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "生化",
+      "items": []
+    }
+  ],
+  "_note": "血常规和生化的具体数值待从PDF报告中提取补充。目前仅录入PRD中明确提及的异常指标。"
+}

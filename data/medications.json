@@ -1,0 +1,67 @@
+{
+  "current": [
+    {
+      "name": "氨氯地平 (Amlodipine)",
+      "dosage": "0.625mg",
+      "frequency": "每日两次（早/晚）",
+      "purpose": "降血压",
+      "startDate": "2026-02-17",
+      "notes": "02/19起剂量翻倍至1.25mg/次；02/21继续加至2.5mg/次；02/22继续加至3.75mg/次"
+    }
+  ],
+  "history": [
+    {
+      "name": "非那雄胺 (Finasteride)",
+      "dosage": "1.25mg",
+      "frequency": "每日一次",
+      "purpose": "前列腺增生",
+      "startDate": "2026-02-19",
+      "endDate": "2026-02-22",
+      "stopReason": "术后暂停，减少变量"
+    }
+  ],
+  "dosageChanges": [
+    {
+      "date": "2026-02-17",
+      "medication": "氨氯地平",
+      "from": "—",
+      "to": "0.625mg 每日两次",
+      "reason": "术后发现高血压，开始用药"
+    },
+    {
+      "date": "2026-02-19",
+      "medication": "氨氯地平",
+      "from": "0.625mg 每日两次",
+      "to": "1.25mg 每日两次",
+      "reason": "血压未有效控制，收缩压持续160-170+"
+    },
+    {
+      "date": "2026-02-19",
+      "medication": "非那雄胺",
+      "from": "—",
+      "to": "1.25mg 每日一次",
+      "reason": "针对前列腺增生"
+    },
+    {
+      "date": "2026-02-21",
+      "medication": "氨氯地平",
+      "from": "1.25mg 每日两次",
+      "to": "2.5mg 每日两次",
+      "reason": "血压仍未有效控制"
+    },
+    {
+      "date": "2026-02-22",
+      "medication": "氨氯地平",
+      "from": "2.5mg 每日两次",
+      "to": "3.75mg 每日两次",
+      "reason": "血压仍偏高，继续加量"
+    },
+    {
+      "date": "2026-02-22",
+      "medication": "非那雄胺",
+      "from": "1.25mg 每日一次",
+      "to": "停药",
+      "reason": "术后暂停，减少变量"
+    }
+  ]
+}

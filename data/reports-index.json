@@ -1,0 +1,199 @@
+{
+  "reports": [
+    {
+      "id": "ct-imaging-20260212-cau",
+      "title": "CT影像报告 - 中农大会诊",
+      "date": "2026-02-12",
+      "institution": "中国农业大学（远程会诊）",
+      "category": "imaging",
+      "subcategory": "ct",
+      "fileType": "pdf",
+      "filePath": "assets/reports/ct-imaging-20260212-cau.pdf",
+      "summary": "腹腔网膜区见较大软组织密度团块影，边界尚清，增强后不均匀强化。未见明显远处转移灶。",
+      "highlights": [
+        "肿块位于腹腔网膜，非脾脏来源",
+        "未见明显远处转移",
+        "胸腔淋巴结轻度肿大",
+        "前列腺明显增大伴囊性变"
+      ]
+    },
+    {
+      "id": "ct-report-20260212-ailu",
+      "title": "CT检查报告 - 爱侣医院",
+      "date": "2026-02-12",
+      "institution": "爱侣医院",
+      "category": "imaging",
+      "subcategory": "ct",
+      "fileType": "pdf",
+      "filePath": "assets/reports/ct-report-20260212-ailu.pdf",
+      "summary": "胸腹联合CT增强扫描，发现腹腔内占位性病变。"
+    },
+    {
+      "id": "ultrasound-20260210",
+      "title": "B超报告",
+      "date": "2026-02-10",
+      "institution": "爱侣医院",
+      "category": "imaging",
+      "subcategory": "ultrasound",
+      "fileType": "pdf",
+      "filePath": "assets/reports/ultrasound-20260210.pdf",
+      "summary": "检查前列腺，发现前列腺囊肿，同时发现腹腔较大肿块。"
+    },
+    {
+      "id": "pre-surgery-ultrasound-ascites-20260224",
+      "title": "术前检查 & B超 & 腹水细胞学",
+      "date": "2026-02-24",
+      "institution": "鹏峰医院",
+      "category": "imaging",
+      "subcategory": "ultrasound",
+      "fileType": "pdf",
+      "filePath": "assets/reports/pre-surgery-ultrasound-ascites-20260224.pdf",
+      "summary": "02/24复查B超及腹水细胞学检查。"
+    },
+    {
+      "id": "abdominal-xray-20260210",
+      "title": "腹腔X光",
+      "date": "2026-02-10",
+      "institution": "爱侣医院",
+      "category": "imaging",
+      "subcategory": "xray",
+      "fileType": "image",
+      "filePath": "assets/images/abdominal-xray-20260210.png",
+      "summary": "腹腔X光检查，配合B超评估前列腺及腹腔情况。"
+    },
+    {
+      "id": "laparoscopy-pathology-20260214",
+      "title": "腹腔肿块 & 睾丸 病理报告",
+      "date": "2026-02-14",
+      "institution": "鹏峰医院（送检）",
+      "category": "pathology",
+      "subcategory": "biopsy",
+      "fileType": "pdf",
+      "filePath": "assets/reports/laparoscopy-pathology-20260214.pdf",
+      "summary": "腹腔镜取样病理：确认为慢性炎症性病变，非恶性肿瘤，但低级别肉瘤不能完全排除。",
+      "highlights": [
+        "腹腔肿块：慢性炎症性病变",
+        "非恶性肿瘤（低级别肉瘤不能完全排除）",
+        "睾丸病理结果"
+      ]
+    },
+    {
+      "id": "ascites-pathology-20260212",
+      "title": "腹水细胞学 - 硕腾",
+      "date": "2026-02-12",
+      "institution": "爱侣医院（硕腾送检）",
+      "category": "pathology",
+      "subcategory": "cytology",
+      "fileType": "pdf",
+      "filePath": "assets/reports/ascites-pathology-20260212.pdf",
+      "summary": "腹水细胞学检查，未发现癌细胞。"
+    },
+    {
+      "id": "ascites-culture-20260214",
+      "title": "腹水药敏培养报告",
+      "date": "2026-02-14",
+      "institution": "鹏峰医院（兽丘送检）",
+      "category": "pathology",
+      "subcategory": "culture",
+      "fileType": "pdf",
+      "filePath": "assets/reports/ascites-culture-20260214.pdf",
+      "summary": "腹水细菌培养结果为无菌，排除细菌感染。",
+      "highlights": [
+        "培养结果：无菌",
+        "排除细菌性腹膜炎"
+      ]
+    },
+    {
+      "id": "laparoscopy-photos-20260214",
+      "title": "腹腔镜术中照片",
+      "date": "2026-02-14",
+      "institution": "鹏峰医院",
+      "category": "pathology",
+      "subcategory": "photos",
+      "fileType": "gallery",
+      "files": [
+        { "path": "assets/images/laparoscopy-photo-1-20260214.jpeg", "caption": "腹腔镜照片 1" },
+        { "path": "assets/images/laparoscopy-photo-2-20260214.png", "caption": "腹腔镜照片 2" },
+        { "path": "assets/images/laparoscopy-photo-3-20260214.jpeg", "caption": "腹腔镜照片 3" },
+        { "path": "assets/images/laparoscopy-photo-4-20260214.jpeg", "caption": "腹腔镜照片 4" }
+      ],
+      "summary": "02/14腹腔镜手术中拍摄的腹腔内部照片。"
+    },
+    {
+      "id": "laparoscopy-video-20260214",
+      "title": "腹腔镜手术视频",
+      "date": "2026-02-14",
+      "institution": "鹏峰医院",
+      "category": "pathology",
+      "subcategory": "photos",
+      "fileType": "video",
+      "filePath": "assets/images/laparoscopy-video-20260214.mp4",
+      "summary": "02/14腹腔镜手术录像。"
+    },
+    {
+      "id": "ascites-sample-photo-20260214",
+      "title": "腹水取样照片",
+      "date": "2026-02-14",
+      "institution": "鹏峰医院",
+      "category": "pathology",
+      "subcategory": "photos",
+      "fileType": "image",
+      "filePath": "assets/images/ascites-sample-20260214.jpeg",
+      "summary": "02/14穿刺抽取的腹水样本照片，外观类似脓液（后证实无菌）。"
+    },
+    {
+      "id": "blood-work-20260212",
+      "title": "血常规 & 生化检查",
+      "date": "2026-02-12",
+      "institution": "爱侣医院",
+      "category": "bloodwork",
+      "fileType": "pdf",
+      "filePath": "assets/reports/blood-work-20260212.pdf",
+      "summary": "术前血常规及生化全项。RETIC（网织红细胞）增高，其他指标基本正常或上限波动。",
+      "highlights": [
+        "RETIC 网织红细胞：150 (参考 10-110) ↑",
+        "其他指标基本正常"
+      ]
+    },
+    {
+      "id": "cbc-20260224",
+      "title": "五分类血常规（含血涂片）",
+      "date": "2026-02-24",
+      "institution": "鹏峰医院",
+      "category": "bloodwork",
+      "fileType": "pdf",
+      "filePath": "assets/reports/cbc-20260224.pdf",
+      "summary": "02/24复查血常规及血涂片。"
+    },
+    {
+      "id": "biochemistry-20260224",
+      "title": "生化简版检查",
+      "date": "2026-02-24",
+      "institution": "鹏峰医院",
+      "category": "bloodwork",
+      "fileType": "pdf",
+      "filePath": "assets/reports/biochemistry-20260224.pdf",
+      "summary": "02/24复查生化指标简版。"
+    },
+    {
+      "id": "checkup-report-20250909",
+      "title": "2025年度体检报告",
+      "date": "2025-09-09",
+      "institution": "体检机构",
+      "category": "archive",
+      "fileType": "pdf",
+      "filePath": "assets/reports/checkup-report-20250909.pdf",
+      "summary": "2025年9月年度体检，含血常规、生化等。生化指标正常。"
+    },
+    {
+      "id": "checkup-ultrasound-xray-202509",
+      "title": "2025年体检 B超 & X光",
+      "date": "2025-09",
+      "institution": "体检机构",
+      "category": "archive",
+      "fileType": "pdf",
+      "filePath": "assets/reports/checkup-ultrasound-xray-202509.pdf",
+      "summary": "2025年9月体检影像检查，B超和X光均未见明显异常。发现前列腺增生。"
+    }
+  ]
+}

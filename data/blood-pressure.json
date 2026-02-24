@@ -1,0 +1,246 @@
+{
+  "records": [
+    {
+      "date": "2026-02-17",
+      "time": "14:09",
+      "period": "下午",
+      "systolic": 168,
+      "diastolic": 77,
+      "heartRate": 94,
+      "medicated": false,
+      "note": "血压计刚到，服药前"
+    },
+    {
+      "date": "2026-02-17",
+      "time": "21:00",
+      "period": "晚上",
+      "systolic": 162,
+      "diastolic": 66,
+      "heartRate": 87,
+      "medicated": true,
+      "note": "服药，剂量按每天1.25mg×2"
+    },
+    {
+      "date": "2026-02-18",
+      "time": "09:28",
+      "period": "上午",
+      "systolic": 153,
+      "diastolic": 85,
+      "heartRate": 109,
+      "medicated": false,
+      "note": "血压不高所以没吃，后续一直在吃"
+    },
+    {
+      "date": "2026-02-18",
+      "time": "19:30",
+      "period": "晚上",
+      "systolic": 178,
+      "diastolic": 70,
+      "heartRate": 96,
+      "medicated": true
+    },
+    {
+      "date": "2026-02-19",
+      "time": "08:05",
+      "period": "上午",
+      "systolic": 164,
+      "diastolic": 93,
+      "heartRate": 110,
+      "medicated": true,
+      "note": "开始吃非那雄胺"
+    },
+    {
+      "date": "2026-02-19",
+      "time": "18:00",
+      "period": "晚上",
+      "systolic": 167,
+      "diastolic": 90,
+      "heartRate": 110,
+      "medicated": true
+    },
+    {
+      "date": "2026-02-20",
+      "time": "09:23",
+      "period": "上午",
+      "systolic": 179,
+      "diastolic": 116,
+      "heartRate": 110,
+      "medicated": true
+    },
+    {
+      "date": "2026-02-20",
+      "time": "12:45",
+      "period": "下午",
+      "systolic": 149,
+      "diastolic": 93,
+      "heartRate": 83
+    },
+    {
+      "date": "2026-02-20",
+      "time": "16:11",
+      "period": "下午",
+      "systolic": 165,
+      "diastolic": 100,
+      "heartRate": 84
+    },
+    {
+      "date": "2026-02-20",
+      "time": "00:27",
+      "period": "深夜",
+      "systolic": 165,
+      "diastolic": 105,
+      "heartRate": 101,
+      "medicated": true,
+      "note": "服药后测量，还没降"
+    },
+    {
+      "date": "2026-02-21",
+      "time": "07:54",
+      "period": "上午",
+      "systolic": 171,
+      "diastolic": 99,
+      "heartRate": 89,
+      "medicated": true
+    },
+    {
+      "date": "2026-02-21",
+      "time": "10:17",
+      "period": "上午",
+      "systolic": 161,
+      "diastolic": 99,
+      "heartRate": 79,
+      "note": "随后剂量翻倍，额外喂了1/4，每天2.5mg×2"
+    },
+    {
+      "date": "2026-02-21",
+      "time": "15:23",
+      "period": "下午",
+      "systolic": 173,
+      "diastolic": 93,
+      "heartRate": 113
+    },
+    {
+      "date": "2026-02-21",
+      "time": "16:01",
+      "period": "下午",
+      "systolic": 162,
+      "diastolic": 90,
+      "heartRate": 91
+    },
+    {
+      "date": "2026-02-21",
+      "time": "16:02",
+      "period": "下午",
+      "systolic": 157,
+      "diastolic": 85,
+      "heartRate": 83
+    },
+    {
+      "date": "2026-02-21",
+      "time": "21:35",
+      "period": "晚上",
+      "systolic": 169,
+      "diastolic": 75,
+      "heartRate": 97,
+      "medicated": true
+    },
+    {
+      "date": "2026-02-21",
+      "time": "21:37",
+      "period": "晚上",
+      "systolic": 148,
+      "diastolic": 86,
+      "heartRate": 95
+    },
+    {
+      "date": "2026-02-21",
+      "time": "21:38",
+      "period": "晚上",
+      "systolic": 159,
+      "diastolic": 97,
+      "heartRate": 93
+    },
+    {
+      "date": "2026-02-22",
+      "time": "09:39",
+      "period": "上午",
+      "systolic": 174,
+      "diastolic": 98,
+      "heartRate": 108,
+      "note": "停了非那雄胺"
+    },
+    {
+      "date": "2026-02-22",
+      "time": "10:34",
+      "period": "上午",
+      "systolic": 185,
+      "diastolic": 115,
+      "heartRate": 100
+    },
+    {
+      "date": "2026-02-22",
+      "time": "10:37",
+      "period": "上午",
+      "systolic": 172,
+      "diastolic": 86,
+      "heartRate": 103
+    },
+    {
+      "date": "2026-02-22",
+      "time": "12:37",
+      "period": "下午",
+      "systolic": 175,
+      "diastolic": 98,
+      "heartRate": 105,
+      "note": "继续加剂量，额外喂了1/4，每天3.75mg×2"
+    },
+    {
+      "date": "2026-02-22",
+      "time": "12:40",
+      "period": "下午",
+      "systolic": 184,
+      "diastolic": 80,
+      "heartRate": 95
+    },
+    {
+      "date": "2026-02-22",
+      "time": "17:56",
+      "period": "晚上",
+      "systolic": 163,
+      "diastolic": 84,
+      "heartRate": 98
+    },
+    {
+      "date": "2026-02-22",
+      "time": "17:58",
+      "period": "晚上",
+      "systolic": 155,
+      "diastolic": 84,
+      "heartRate": 90
+    },
+    {
+      "date": "2026-02-22",
+      "time": "00:04",
+      "period": "深夜",
+      "systolic": 166,
+      "diastolic": 93,
+      "heartRate": 66
+    },
+    {
+      "date": "2026-02-23",
+      "time": "08:55",
+      "period": "上午",
+      "systolic": 162,
+      "diastolic": 75,
+      "heartRate": 110
+    },
+    {
+      "date": "2026-02-23",
+      "time": "11:11",
+      "period": "上午",
+      "systolic": 172,
+      "diastolic": 97,
+      "heartRate": 112
+    }
+  ]
+}
