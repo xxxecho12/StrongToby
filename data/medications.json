@@ -7,27 +7,27 @@
       "purpose": "降血压",
       "startDate": "2026-02-16",
       "notes": "02/16出院时剂量为1.25mg/次；02/21加至2.5mg/次；02/22继续加至3.75mg/次"
-    }
+    },
     {
       "name": "阿莫西林",
       "dosage": "250mgx2",
       "frequency": "每日两次（早/晚）",
       "purpose": "术后消炎",
-      "startDate": "2026-02-16",
-    }
+      "startDate": "2026-02-16"
+    },
     {
       "name": "合昔亚 Hecyia",
       "dosage": "每次一片",
       "frequency": "每日1次",
       "purpose": "术后疼痛管理",
-      "startDate": "2026-02-16",
-    }
+      "startDate": "2026-02-16"
+    },
     {
       "name": "普维康 Orevicox",
       "dosage": "57mg",
       "frequency": "每日1次",
       "purpose": "腹部触痛处止痛",
-      "startDate": "2026-02-24",
+      "startDate": "2026-02-24"
     }
   ],
   "history": [

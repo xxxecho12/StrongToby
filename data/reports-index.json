@@ -8,8 +8,7 @@
       "category": "imaging",
       "subcategory": "ct",
       "fileType": "pdf",
-      "filePath": "assets/reports/ct-imaging-20260212-cau.pdf",
-      ]
+      "filePath": "assets/reports/ct-imaging-20260212-cau.pdf"
     },
     {
       "id": "ct-report-20260212-ailu",
@@ -19,7 +18,7 @@
       "category": "imaging",
       "subcategory": "ct",
       "fileType": "pdf",
-      "filePath": "assets/reports/ct-report-20260212-ailu.pdf",
+      "filePath": "assets/reports/ct-report-20260212-ailu.pdf"
     },
     {
       "id": "ultrasound-20260210",
@@ -64,7 +63,6 @@
       "fileType": "pdf",
       "filePath": "assets/reports/laparoscopy-pathology-20260214.pdf",
       "summary": "腹腔镜取样病理：认为是慢性炎症性病变，非恶性肿瘤，但低级别肉瘤不能完全排除。"
-      ]
     },
     {
       "id": "ascites-pathology-20260212",
@@ -86,8 +84,7 @@
       "subcategory": "culture",
       "fileType": "pdf",
       "filePath": "assets/reports/ascites-culture-20260214.pdf",
-      "summary": "02/14抽腹水细菌培养结果为无菌。",
-      ]
+      "summary": "02/14抽腹水细菌培养结果为无菌。"
     },
     {
       "id": "laparoscopy-photos-20260214",
@@ -135,7 +132,7 @@
       "category": "bloodwork",
       "fileType": "pdf",
       "filePath": "assets/reports/blood-work-20260212.pdf",
-      "summary": "术前血常规及生化全项。RETIC（网织红细胞）增高，其他指标基本正常或上限波动。",
+      "summary": "术前血常规及生化全项。RETIC（网织红细胞）增高，其他指标基本正常或上限波动。"
     },
     {
       "id": "cbc-20260224",
