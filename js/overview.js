@@ -123,6 +123,14 @@
       '  margin-bottom: 0;',
       '}',
 
+      '.ov-markdown p {',
+      '  margin: 0 0 8px 0;',
+      '}',
+
+      '.ov-markdown p:last-child {',
+      '  margin-bottom: 0;',
+      '}',
+
       '.ov-sub-label {',
       '  font-size: 0.82rem;',
       '  font-weight: 600;',
@@ -248,6 +256,18 @@
   /**
    * Build the Condition Summary Card.
    */
+  /**
+   * Render markdown text to HTML. Falls back to plain text if marked.js is not loaded.
+   */
+  function renderMarkdown(text) {
+    if (typeof marked !== 'undefined' && marked.parse) {
+      return marked.parse(text);
+    }
+    // Fallback: escape HTML and convert newlines to <br>
+    var escaped = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return escaped.replace(/\n/g, '<br>');
+  }
+
   function buildConditionCard(info) {
     var card = el('div', 'ov-card');
     card.appendChild(el('div', 'ov-card-title', '健康概况'));
@@ -255,14 +275,18 @@
     if (info.conditionSummary) {
       var lbl1 = el('div', 'ov-sub-label', '病情摘要');
       card.appendChild(lbl1);
-      card.appendChild(el('div', 'ov-text', info.conditionSummary));
+      var summaryEl = el('div', 'ov-text ov-markdown');
+      summaryEl.innerHTML = renderMarkdown(info.conditionSummary);
+      card.appendChild(summaryEl);
     }
 
     if (info.currentStatus) {
       var lbl2 = el('div', 'ov-sub-label', '当前状态');
       lbl2.style.marginTop = '12px';
       card.appendChild(lbl2);
-      card.appendChild(el('div', 'ov-text', info.currentStatus));
+      var statusEl = el('div', 'ov-text ov-markdown');
+      statusEl.innerHTML = renderMarkdown(info.currentStatus);
+      card.appendChild(statusEl);
     }
 
     return card;
